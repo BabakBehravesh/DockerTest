@@ -6,3 +6,9 @@ To run the container:
 - run -> docker run -d -p 3000:3000 node-app:1.0
 - get the container id by running -> docker ps
 - run -> docker logs <container id>
+
+
+We can also use commands 
+> docker-compose up -d
+> docker-compose down
+after since adding docker-compose.yaml file. 
